@@ -1,0 +1,41 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <a href="url">Upload</a>
+    <a href="url">Download</a>
+
+<!--    <h1></h1>-->
+
+<!--    <form action="/upload" method="post" enctype="multipart/form-data">-->
+<!--        {{ form.csrf_token }}-->
+<!--        {{ form.file.label }} {{ form.file(size=32, accept=".pdf, .txt, .docx") }}-->
+<!--        {{ form.expiring_choice.label}} {{ form.expiring_choice() }}-->
+<!--        {% if form.file.errors %}-->
+<!--            <ul class="errors">-->
+<!--                {% for error in form.file.errors %}-->
+<!--                    <li>{{ error }}</li>-->
+<!--                {% endfor %}-->
+<!--            </ul>-->
+<!--        {% endif %}-->
+<!--        <button type="submit">Upload</button>-->
+<!--    </form>-->
+
+<!--    <h2>Files</h2>-->
+<!--    <ul>-->
+<!--        {% for file in files %}-->
+<!--            <li><a href="{{ url_for('static', filename='uploads/' + file.filename) }}" target="_blank">{{ filename }}</a></li>-->
+<!--        {% endfor %}-->
+<!--    </ul>-->
+<!--    {% with messages = get_flashed_messages() %}-->
+<!--            {% for message in messages %}-->
+<!--            {{ message }}-->
+<!--            {% endfor %}-->
+<!--            {% endwith %}-->
+</body>
+</html>
